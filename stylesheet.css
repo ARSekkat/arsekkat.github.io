@@ -1,0 +1,261 @@
+@media (max-width: 780px) {
+	* {
+		box-sizing: border-box;
+	}
+	body {
+		width: auto;
+		margin: 0;
+		padding: 0;
+	}
+	img,
+	table,
+	td,
+	blockquote,
+	code,
+	pre,
+	textarea,
+	input,
+	iframe,
+	object,
+	embed,
+	video {
+		max-width: 100%;
+	}
+	img:not(.imgSlides) {
+		height: auto;
+	}
+	textarea,
+	table,
+	td,
+	th,
+	code,
+	pre,
+	samp {
+		-webkit-hyphens: auto;
+		-moz-hyphens: auto;
+		hyphens: auto;
+		word-wrap: break-word;
+	}
+	code,
+	pre,
+	samp {
+		white-space: pre-wrap;
+	}
+	.tabres_mobile {
+		width:5%;
+		min-width:100px;
+	}
+	.hide_mobile {
+		display: none !important;
+	}
+	.pdf_mobile {
+		height: 500px;
+	}
+	.others_mobile {
+		height: 10px;
+	}
+	.exptable_mobile {
+		padding-left: 3px;
+		padding-right: 3px;
+	}
+	#text_index_mobile {
+		padding-left:2.5%;
+		padding-right:2.5%;
+		padding-bottom:2.5%;
+		padding-top: 0;
+	}
+	/*.button {
+		padding:3px;
+	}
+	.imbutton {
+		padding:0px;
+	}*/
+	.teaser{
+		height: 150px;
+	}
+}
+@media (min-width: 781px) {
+	.tabres_desk {
+		width:10%;
+	}
+	.hide_desk  {
+		display: none;
+	}
+	.others_desk {
+		height: 10px;
+	}
+	.exptable_desk {
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+	#text_index_mobile {
+		padding:2.5%;
+	}
+	/*.imbutton {
+		padding-right:10px;
+	}
+	.button {
+		padding-left:13px;
+		padding-right:13px;
+	}*/
+	.teaser{
+		height: 360px;
+	}
+}
+@media (max-device-width:768px) and (orientation: landscape) {
+	html {
+		-webkit-text-size-adjust: 100%;
+		-ms-text-size-adjust: 100%;
+	}
+}
+.tab:focus,
+.tab:hover{
+	background-color: #b3b3b3;
+	text-decoration: underline;
+}
+a {
+	color: #0086b3;
+	text-decoration: none;
+}
+a:focus,
+a:hover {
+	/*color: #3baff7;*/
+	text-decoration: underline;
+}
+body,
+td,
+th,
+tr,
+p{
+	font-family: 'Lato', Verdana, Helvetica, sans-serif;
+	font-size: 14px
+}
+strong {
+	font-family: 'Lato', Verdana, Helvetica, sans-serif;
+	font-size: 14px;
+}
+.imbutton {
+	padding-right:10px;
+}
+.button {
+	padding-left:13px;
+	padding-right:13px;
+	border: 0;
+	height: 35px;
+	cursor:pointer;
+	font-size : 15px;
+	border-radius: 10px;
+}
+.button_on {
+	background-color: #bfbfbf;
+}
+.button_off {
+	background-color: #E5E7E9;
+}
+div.other { 
+	display: none; 
+}
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.slideshow-container {
+	max-width: 1000px;
+	position: relative;
+	margin: auto;
+}
+.mySlides:hover ~ .prev{
+	opacity: 1;
+}
+.mySlides:hover ~ .next{
+	opacity: 1;
+}
+.prev, .next {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	padding: 16px;
+	margin-top: -22px;
+	color: white;
+	opacity: 0;
+	font-weight: bold;
+	font-size: 18px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+}
+.next {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+	background-color: rgba(0,0,0,0.8);
+	opacity: 1;
+}
+.text {
+	position: absolute;
+	width: 100%;
+	text-align: center;
+}
+.dot {
+	cursor: pointer;
+	height: 15px;
+	width: 15px;
+	margin: 0 2px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+	background-color: #717171;
+}
+.fade {
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 1.5s;
+	animation-name: fade;
+	animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+	from {opacity: .4} 
+	to {opacity: 1}
+}
+@keyframes fade {
+	from {opacity: .4} 
+	to {opacity: 1}
+}
+.hoverTable:hover {
+	background-image: linear-gradient(to right, #93aed2, #F8F8FF);
+}
+.abstract_hide {
+	display: none;
+}
+.abstract_show {
+	display: block;
+}
+table .eductab td {
+    border: 1px solid #bfbfbf;
+}
+table .eductab tr:first-child td {
+    border-top: 0;
+}
+table .eductab tr:last-child td {
+    border-bottom: 0;
+}
+table .eductab tr td:first-child {
+    border-left: 0;
+}
+table .eductab tr td:last-child{
+    border-right: 0;
+}
+.img-container {
+  position: relative;
+}
+.img-container:after {
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 99;
+}
